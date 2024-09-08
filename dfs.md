@@ -37,7 +37,7 @@ void dfsCall(vector<vector<int>> &graphList, vector<bool> &visitedList, int sour
 
     for(auto item: graphList[source]){
         if(visitedList[item] == false)
-            dfsCall(graphList, visistedList, item);
+            dfsCall(graphList, visitedList, item);
     }
 }
 
